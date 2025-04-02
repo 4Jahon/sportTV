@@ -1,0 +1,64 @@
+$q-ww:30px;
+$e-o:30px;
+$q-www:30px;
+$r-rr:750px;
+$w-rr:200px;
+
+
+.q{
+    border: 1px solid black;
+    font-size: 30px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  border-color: aliceblue;
+}
+
+a{
+    text-decoration: dashed;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+input{
+    font-size: $q-ww;
+}
+label{
+    font-size: $e-o;
+}
+textarea{
+    font-size: $q-www;
+}
+
+form{
+    margin-left: $r-rr;
+    margin-top: $w-rr;
+    border: white;
+    width: 600px    
+    
+}
+
+table {
+    width: 100%;
+    animation-duration:1s;
+    animation: fadeInUp;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: #ddd;
+  
+    
+}
+th {
+    background-color: #f2f2f2;
+}
+
+body{
+    animation: fadeInUp;
+    animation-duration: 1s;
+}
+
